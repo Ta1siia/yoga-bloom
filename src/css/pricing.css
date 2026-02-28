@@ -1,0 +1,81 @@
+.pricing-section {
+  background-color: #f8fbfe;
+}
+
+.small-text-pricing {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.pricing-heading {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pricing-subheading {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.pricing-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.pricing-cards-item {
+  border: 0px solid rgba(13, 11, 10, 0.15);
+  border-radius: 16px;
+  padding: 32px 24px;
+  max-width: 343px;
+  background-color: #dfebeb;
+}
+.pricing-card-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.pricing-card-price {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.pricing-card-features {
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.pricing-card-features-item {
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.pricing-card-join-btn {
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 295px;
+  height: 46px;
+  background-color: #c2d9fc;
+  font-family: 'Sarabun', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
