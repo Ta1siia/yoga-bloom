@@ -1,0 +1,36 @@
+/* #region testimonials */
+
+.testimonials {
+}
+
+.testimonials-title {
+  font-family: 'Cabin, sans-serif';
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-title {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1335px) {
+  .testimonials-title {
+    font-size: 40px;
+  }
+}
+
+.testimonials-title-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* #endregion testimonials */
