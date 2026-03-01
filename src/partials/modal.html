@@ -1,39 +1,48 @@
-<div class="container">
-  <div class="backdrop">
-    <div class="modal">
-      <a href="">
-        <svg class="close-icon" width="32" height="32">
-          <use href="../img/icons.svg#icon-x-close"></use>
-        </svg>
-      </a>
-      <h2>Join Now!</h2>
-      <p>One Session</p>
-      <p>&#36;10</p>
-      <form>
-        <label for="user-name">Your Name</label>
+<div class="backdrop">
+  <div class="modal">
+    <a href="">
+      <svg class="close-icon" width="32" height="32">
+        <use href="../img/icons.svg#icon-x-close"></use>
+      </svg>
+    </a>
+    <h2 class="modal-title">Join Now!</h2>
+    <p class="modal-paragprah">One Session</p>
+    <p class="modal-price">&#36;10</p>
+    <form class="modal-form">
+      <div class="input-wrapper">
+        <label class="input-label" for="user-name">Your Name</label>
         <input
+          class="input-field"
           type="text"
           name="user-name"
           id="user-name"
           placeholder="Walter Hartwell White"
         />
-        <label for="email">Email</label>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="whwhite@gmail.com"
-        />
-        <label for="phone-number"></label>
-        <input
-          type="tel"
-          name="phone-number"
-          id="phone-number"
-          required
-          placeholder="+380 790326971"
-        />
-        <button class="modal-btn" type="submit">Go to checkout</button>
-      </form>
-    </div>
+      </div>
+      <div class="form-bottom-wrapper">
+        <div class="input-wrapper">
+          <label class="input-label" for="email">Email</label>
+          <input
+            class="input-field"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="whwhite@gmail.com"
+          />
+        </div>
+        <div class="input-wrapper">
+          <label class="input-label" for="phone-number">Phone number</label>
+          <input
+            class="input-field"
+            type="tel"
+            name="phone-number"
+            id="phone-number"
+            required
+            placeholder="+380 790326971"
+          />
+        </div>
+      </div>
+      <button class="modal-btn" type="submit">Go to checkout</button>
+    </form>
   </div>
 </div>
