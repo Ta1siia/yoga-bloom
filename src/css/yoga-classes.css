@@ -1,0 +1,161 @@
+.programs-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px 16px;
+}
+.title-lable {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: 'Sarabun', sans-serif;
+}
+.title-programs-section {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #0d0b0a;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+
+.program-title-pitch {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 48px;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.programs-list {
+}
+.program-img {
+  margin-bottom: 24px;
+}
+.program-title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+.program-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 48px;
+  font-family: 'Sarabun', sans-serif;
+}
+
+.join-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding-block: 10px;
+  padding-inline: 24px;
+  height: 46px;
+  width: 100%;
+  background-color: #c2d9fc;
+  font-family: 'Sarabun', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0d0b0a;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 40px 32px;
+  }
+
+  .title-lable {
+    margin-bottom: 16px;
+  }
+
+  .title-programs-section {
+    margin-bottom: 24px;
+  }
+
+  .program-title-pitch {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  .programs-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .program-img {
+    height: 240px;
+    margin-bottom: 16px;
+  }
+  .program-title {
+    margin-bottom: 0;
+  }
+
+  .program {
+    width: calc((100% - 24px) / 2);
+  }
+  .program-description {
+    margin-bottom: 27px;
+  }
+
+  .restorative-yoga-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .last-program {
+    margin-bottom: 61px;
+    width: 100%;
+  }
+
+  .join-button {
+    width: 110px;
+  }
+}
+@media screen and (min-width: 1336px) {
+  .container {
+    max-width: 1336px;
+    padding: 112px 64px;
+  }
+  .title-programs-section {
+    font-size: 52px;
+  }
+  .program-img {
+    margin-bottom: 32px;
+    height: 240px;
+    width: 100%;
+  }
+  .program-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .program {
+    width: calc((100% - 48px) / 3);
+  }
+   .last-program{
+    margin-bottom: 0;
+   }
+   .program-description {
+    margin-bottom: 40px;
+  }
+}
