@@ -33,4 +33,41 @@
   margin-bottom: 24px;
 }
 
+.testimonials-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.testimonials-list-item {
+  background-color: #dfebeb;
+  border-radius: 24px;
+  padding: 12px;
+  width: 343px;
+  margin: 0 auto;
+}
+
+.testimonials-customer-feedback {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.testimonials-author-profile-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.testimonials-author-profile-role {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /* #endregion testimonials */
