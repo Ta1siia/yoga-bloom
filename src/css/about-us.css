@@ -72,7 +72,10 @@ padding: 80px 32px 40px 32px;
 gap: 40px;
 }
 .about-us{
-background-color: #f2fafa;}
+background-color: #f2fafa;
+}
+.btn-about-us:hover{
+opacity: 0.5;}
 .title-us h2{
 margin-bottom: 24px;}
 .us-list{
@@ -95,9 +98,9 @@ margin-bottom: 24px;}
   text-decoration: none;
   white-space: nowrap;
 }}
-@media (min-width: 1440px) {
+@media (min-width: 1336px) {
     .container-about-us {
-    max-width: 1440px;
+    max-width: 1336px;
     padding: 112px 64px;
 }
 .us-list{
