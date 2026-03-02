@@ -1,0 +1,129 @@
+.team-container {
+    padding: 64px 16px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.team-title {
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-text,
+.team-item-text {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 48px;
+
+}
+
+.team-item-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.team-menu-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+}
+
+.team-image {
+    border-radius: 16px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.team-image.no-gap {
+    display: block;
+    height: auto;
+}
+
+.team-item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-item-text {
+    margin-bottom: 12px;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.icons-social-link-list {
+    display: flex;
+    column-gap: 14px;
+    justify-content: center;
+}
+
+.icon-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+    .team-container {
+        padding: 40px 32px;
+    }
+
+   .team-menu-list {
+    flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        align-items: center;
+        row-gap: 64px;
+    }
+
+   .team-menu-item {
+       width: calc((100% - 48px) / 2);
+       display: block;
+       align-items: center;
+    }
+
+    .team-image {
+        width: 340px;
+        height: 395px;
+        display: block;
+    }
+}
+
+
+@media screen and (min-width: 1336px) {
+    .team-container {
+        padding: 0 64px;
+    }
+        
+    .team-menu-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 48px 24px;
+    }
+    
+    .team-menu-item {
+        width: calc((100% - 48px) / 3);
+        position: relative;
+    }
+
+    .team-image {
+        width: 100%;
+        height: auto;
+    }
+}
