@@ -4,20 +4,19 @@
 }
 
 .header-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    justify-content: space-between;
-
-    min-height: 72px;
 }
+
 
 .header-nav {
     display: none;
 }
 
 .btn-menu {
-    flex: 0 0 auto;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    justify-self: start;
 }
 
 .btn-menu:hover {
@@ -25,9 +24,7 @@
 }
 
 .header-logo {
-    flex: 1;
-    display: flex;
-    justify-content: center;
+    justify-self: center;
 }
 
 .header-button {
@@ -41,9 +38,8 @@
     border-radius: 100px;
     background-color: #c2d9fc;
 
-    flex: 0 0 auto;
-
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    justify-self: end;
 }
 
 .header-button:hover,
