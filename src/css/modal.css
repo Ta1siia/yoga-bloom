@@ -11,6 +11,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity;
+  z-index: 999;
 }
 
 .is-hidden {
@@ -35,12 +36,12 @@
 
 .close-icon {
   fill: #0d0b0a;
-  position: absolute;
-  top: 16px;
-  right: 16px;
 }
 
 .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: opacity;
@@ -58,7 +59,7 @@
   margin-bottom: 32px;
 }
 
-.modal-paragprah {
+.modal-paragpraph {
   font-size: 18px;
   line-height: 1.4;
   letter-spacing: 0.01em;
@@ -112,7 +113,7 @@
 
 .modal-btn {
   background-color: #c2d9fc;
-  max-width: 100%;
+  width: auto;
   padding-top: 10px;
   padding-bottom: 10px;
   border: 1px solid #c2d9fc;
@@ -155,7 +156,7 @@
 
   .modal-btn {
     padding: 10px 24px;
-    max-width: 155px;
+    width: auto;
     align-self: center;
   }
 }
