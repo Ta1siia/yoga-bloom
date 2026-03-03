@@ -18,6 +18,8 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    overflow-y: auto;
+    z-index: 999;
 }
 
 .menu-container {
@@ -103,7 +105,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+
     .menu-button.bottom {
     align-self: flex-start;
     min-width: 204px;
