@@ -1,12 +1,29 @@
+.backdrop {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
+}
+
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: opacity;
+}
+
 .modal {
   font-family: 'Cabin', sans-serif;
   color: #0d0b0a;
   background-color: #dfebeb;
-  padding: 64px 16px 0 16px;
+  padding: 64px 16px 112px;
   position: relative;
   max-width: 375px;
   min-width: 320px;
-  height: 100vh;
   margin: 0 auto;
 }
 
