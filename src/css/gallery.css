@@ -59,7 +59,7 @@
 
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1336px) {
     .gallery-list-item {
         width: calc((100% - 48px) / 3);
     }
