@@ -19,7 +19,6 @@
   letter-spacing: 0.01em;
   text-align: center;
   color: #0d0b0a;
-  box-sizing: border-box;
   margin-bottom: 20px;
   font-family: 'Cabin', sans-serif;
 }
@@ -62,7 +61,6 @@
   border-radius: 100px;
   padding-block: 10px;
   padding-inline: 24px;
-  height: 46px;
   width: 100%;
   background-color: #c2d9fc;
   font-family: 'Sarabun', sans-serif;
@@ -70,7 +68,7 @@
   justify-content: center;
   align-items: center;
   color: #0d0b0a;
-  padding: 0;
+  padding: 10px 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -93,7 +91,7 @@
   }
 
   .program-title-pitch {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 40px;
   }
   .programs-list {
