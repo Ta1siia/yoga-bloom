@@ -135,7 +135,7 @@
         background-image: url(../img/Header/yoga.webp);
     }
 
-    .hero-container {
+    .container.hero-container {
         align-items: center;
     }
 
@@ -165,7 +165,7 @@
     }
 }
 
-@media screen and (min-width: 1136px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 1336px) and (min-resolution: 192dpi) {
     .hero-image {
         background-image: url(../img/Header/yoga-@2x.webp);
     }
