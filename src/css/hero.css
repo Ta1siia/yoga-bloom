@@ -129,7 +129,7 @@
 
 /* MEDIA DESKTOP */
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
     .hero-image {
         height: 684px;
         background-image: url(../img/Header/yoga.webp);
@@ -165,7 +165,7 @@
     }
 }
 
-@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 1136px) and (min-resolution: 192dpi) {
     .hero-image {
         background-image: url(../img/Header/yoga-@2x.webp);
     }
