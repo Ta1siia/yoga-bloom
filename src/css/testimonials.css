@@ -40,7 +40,7 @@
 .testimonials-list-item {
   background-color: #dfebeb;
   border-radius: 24px;
-  padding: 12px 12px;
+  padding: 12px;
   width: 100%;
   margin: 0 auto;
 }
@@ -110,7 +110,6 @@
   .testimonials-list {
     flex-direction: row;
     flex-wrap: wrap;
-    display: flex;
     align-items: stretch;
   }
 
