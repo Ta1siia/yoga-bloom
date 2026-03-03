@@ -1,6 +1,10 @@
-.team-container {
-    padding: 64px 16px;
-    margin: 0 auto;
+/* Team Section Styles */
+
+.section-team-title {
+    width: 100%;
+    margin-bottom: 48px;
+    padding-left: 17px;
+    padding-right: 17px;
 }
 
 .title {
@@ -24,8 +28,6 @@
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    margin-bottom: 48px;
-
 }
 
 .team-item-title {
@@ -41,12 +43,35 @@
     row-gap: 48px;
 }
 
+.teeam-menu-item {
+    width: 343px;
+}
+
 .team-image {
     border-radius: 16px;
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    display: block;
     border: none;
+}
+
+.card-image.no-gap {
+    display: block;
+    height: auto;
+}
+
+.team-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 343px;
+}
+
+.team-wrapper-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
 }
 
 .team-item-info {
@@ -57,10 +82,6 @@
 
 .team-item-text {
     margin-bottom: 12px;
-}
-
-.text {
-    margin-bottom: 20px;
 }
 
 .icons-social-link-list {
@@ -79,30 +100,50 @@
     .team-container {
         padding: 0 32px;
     }
+    .section-team-title {
+        margin-bottom: 40px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .title {
+        margin-bottom: 16px;
+    }
+
+    .team-title {
+        margin-bottom: 24px;
+    }
 
    .team-menu-list {
-    flex-direction: row;
+        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;
+        row-gap: 24px;
         align-items: center;
-        row-gap: 64px;
     }
 
    .team-menu-item {
-       width: calc((100% - 48px) / 2);
-       display: block;
-       align-items: center;
+        width: 340px;
+        display: block;
+        align-items: center;
     }
 
     .team-image {
-        width: 100%;
         height: auto;
         display: flex; 
         align-items: center;
         justify-content: center;
     }
-    
 
+    .team-wrapper-info {
+        margin: 24px 0;
+    }
+
+    .team-item-text {
+        margin-bottom: 16px;
+    }
+    
     .team-item-info {
         width: 340px;
         display: flex;
@@ -120,21 +161,16 @@
     .team-menu-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 48px 24px;
+        column-gap: 24px;
+        row-gap: 64px;
+        align-items: center;
     }
     
     .team-menu-item {
         width: calc((100% - 48px) / 3);
-        position: relative;
     }
-
-    .team-image {
-        width: 100%;
-        height: auto;
-    }
-
+        
     .team-item-info {
-        width: 421px;
         display: flex;
         flex-direction: column;
         align-items: center;
