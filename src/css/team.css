@@ -44,7 +44,7 @@
 }
 
 .team-menu-item {
-    width: 343px;
+    width: 100%;
 }
 
 .team-image {
@@ -56,11 +56,16 @@
     box-shadow: none;
 }
 
+.team-image.no-gap {
+    display: block;
+    height: auto;
+}
+
 .team-wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 343px;
+    width: 100%;
 }
 
 .team-wrapper-info {
@@ -71,7 +76,7 @@
 }
 
 .team-item-info {
-    width: 343px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -102,7 +107,7 @@
         padding-right: 0;
     }
 
-    .title {
+    .text-meet {
         margin-bottom: 16px;
     }
 
@@ -116,7 +121,6 @@
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 24px;
-        align-items: center;
     }
 
    .team-menu-item {
