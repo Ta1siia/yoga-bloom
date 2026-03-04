@@ -56,11 +56,6 @@
     box-shadow: none;
 }
 
-.team-image.no-gap {
-    display: block;
-    height: auto;
-}
-
 .team-wrapper {
     display: flex;
     align-items: center;
@@ -126,7 +121,6 @@
    .team-menu-item {
         width: calc((100% - 24px) / 2);
         display: block;
-        align-items: center;
     }
 
     .team-wrapper-info {
