@@ -1,0 +1,128 @@
+/* #region testimonials */
+
+.testimonials-title {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-title {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1335px) {
+  .testimonials-title {
+    font-size: 40px;
+  }
+}
+
+.testimonials-title-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.testimonials-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.testimonials-list-item {
+  background-color: #dfebeb;
+  border-radius: 24px;
+  padding: 12px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.testimonials-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.testimonials-customer-feedback {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.testimonials-author-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials-author-profile-avatar {
+  margin-bottom: 16px;
+}
+
+.testimonials-author-profile-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.testimonials-author-profile-role {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-author-profile-container {
+    margin-top: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1335px) {
+  .testimonials-list-item:first-child {
+    padding: 29.5px 12px;
+  }
+
+  .testimonials-list-item:nth-child(2) .testimonials-item-container {
+    min-height: 332px;
+  }
+
+  .testimonials-list-item:nth-child(1) .testimonials-item-container,
+  .testimonials-list-item:nth-child(3) .testimonials-item-container,
+  .testimonials-list-item:nth-child(4) .testimonials-item-container {
+    min-height: 297px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .testimonials-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .testimonials-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .testimonials-item-container {
+    height: 100%;
+  }
+
+  .testimonials-author-profile-role {
+    font-family: 'Sarabun', sans-serif;
+  }
+}
+
+/* #endregion testimonials */
