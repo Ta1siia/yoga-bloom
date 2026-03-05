@@ -18,8 +18,7 @@
       rel="stylesheet"
     />
     <title>Yoga Bloom</title>
-    <script type="module" crossorigin src="/yoga-bloom/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/yoga-bloom/assets/index-CQbZH8pZ.css">
+    <link rel="stylesheet" crossorigin href="/yoga-bloom/assets/index-Dt8iZWD2.css">
   </head>
   <body>
     <header class="header-section">
@@ -639,7 +638,13 @@
             Community support group
           </li>
         </ul>
-        <button type="button" class="pricing-card-join-btn">Join</button>
+        <button
+          type="button"
+          class="pricing-card-join-btn"
+          data-modal-open="basic"
+        >
+          Join
+        </button>
       </li>
       <li class="pricing-cards-item">
         <h3 class="pricing-card-title">8 Sessions Package</h3>
@@ -664,7 +669,13 @@
             Priority customer support
           </li>
         </ul>
-        <button type="button" class="pricing-card-join-btn">Join</button>
+        <button
+          type="button"
+          class="pricing-card-join-btn"
+          data-modal-open="mid"
+        >
+          Join
+        </button>
       </li>
       <li class="pricing-cards-item">
         <h3 class="pricing-card-title">12 Sessions Package</h3>
@@ -701,7 +712,13 @@
             Community support group
           </li>
         </ul>
-        <button type="button" class="pricing-card-join-btn">Join</button>
+        <button
+          type="button"
+          class="pricing-card-join-btn"
+          data-modal-open="top"
+        >
+          Join
+        </button>
       </li>
     </ul>
   </div>
@@ -855,7 +872,7 @@
   </div>
 </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal="basic">
   <div class="modal">
     <button type="button" class="close-btn" data-modal-close>
       <svg class="close-icon" width="32" height="32">
@@ -907,9 +924,9 @@
   </div>
 </div>
 
-<div class="backdrop is-hidden" data-modal-mid>
+<div class="backdrop is-hidden" data-modal="mid">
   <div class="modal">
-    <button type="button" class="close-btn" data-modal-mid-close>
+    <button type="button" class="close-btn" data-modal-close>
       <svg class="close-icon" width="32" height="32">
         <use href="/yoga-bloom/assets/icons-EEDqs3qb.svg#icon-x-close"></use>
       </svg>
@@ -956,9 +973,9 @@
   </div>
 </div>
 
-<div class="backdrop is-hidden" data-modal-top>
+<div class="backdrop is-hidden" data-modal="top">
   <div class="modal">
-    <button type="button" class="close-btn" data-modal-top-close>
+    <button type="button" class="close-btn" data-modal-close>
       <svg class="close-icon" width="32" height="32">
         <use href="/yoga-bloom/assets/icons-EEDqs3qb.svg#icon-x-close"></use>
       </svg>
@@ -1006,5 +1023,6 @@
 </div>
 
 
+    <script src="./js/modal.js"></script>
   </body>
 </html>
