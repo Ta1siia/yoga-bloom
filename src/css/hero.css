@@ -1,0 +1,172 @@
+.container.hero-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.hero {
+    padding: 0;
+}
+
+.hero-image {
+    width: 100%;
+    height: 301px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/Header/yoga-m.webp);
+}
+
+.hero-wrapper {
+    padding: 48px 16px;
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    color: #0d0b0a;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #0d0b0a;
+    margin-bottom: 24px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-btn {
+    color: #0d0b0a;
+    padding: 10px 0;
+    align-self: stretch;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    border: 1px solid #c2d9fc;
+    border-radius: 100px;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-btn.primary {
+    background-color: #c2d9fc;
+}
+
+.hero-btn.secondary {
+    background-color: rgba(13, 11, 10, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    opacity: 0.5;
+}
+
+
+/* MEDIA */
+@media screen and (min-resolution: 192dpi) {
+    .hero-image {
+        background-image: url(../img/Header/yoga-m@2x.webp);
+    }
+}
+
+/* MEDIA TABLET */
+@media screen and (min-width: 768px) {
+
+    .hero-image {
+        background-image: url(../img/Header/yoga-t.webp);
+        height: 359px;
+    }
+
+    .hero-wrapper {
+        padding: 24px 32px;
+    }
+
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-title {
+        margin-bottom: 8px;
+    }
+
+    .hero-text {
+        margin-bottom: 32px;
+        max-width: 641px;
+        font-size: 18px;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .hero-buttons .hero-btn {
+        width: auto;
+        padding: 10px 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero-image {
+        background-image: url(../img/Header/yoga-t@2x.webp);
+    }
+}
+
+/* MEDIA DESKTOP */
+
+@media screen and (min-width: 1336px) {
+    .hero-image {
+        height: 684px;
+        background-image: url(../img/Header/yoga.webp);
+    }
+
+    .container.hero-container {
+        align-items: center;
+    }
+
+    .hero-wrapper {
+        padding: 80px 64px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .hero-title {
+        font-size: 72px;
+        margin-bottom: 0;
+        max-width: 644px;
+    }
+
+    .hero-text {
+        font-size: 18px;
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .hero-buttons {
+        flex-direction: row;
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 1336px) and (min-resolution: 192dpi) {
+    .hero-image {
+        background-image: url(../img/Header/yoga-@2x.webp);
+    }
+}
